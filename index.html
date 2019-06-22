@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" id="html" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volume Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body red">
+    <div class="cover">
+        <div class="grid-wrapper">
+            <div class=" box zone kubus">
+                <a href="#kubus" class="page-scroll"><img src="img/cube.svg" alt=""></a>
+            </div>
+
+            <div class="box zone bola">
+                <a href="#bola" class="page-scroll"><img src="img/sphere.svg" alt=""></a>
+            </div>
+
+            <div class="box zone prisma-segilima">
+                <a href="#prisma" class="page-scroll" ><img src="img/prismasegilima.svg" alt=""></a>
+                <!-- <p>prisma-segiEmpat</p> -->
+            </div>
+
+            <div class="box zone limas-segiempat">
+                <a href="#limas" class="page-scroll"><img src="img/pyramid.svg" alt=""></a>
+                <!-- <p>limas-segiEmpat</p> -->
+            </div>
+
+            <div class="box zone tabung">
+                <a href="#tabung" class="page-scroll"><img src="img/cylinder.svg" alt=""></a>
+            </div>
+
+            <div class="box zone kerucut">
+                <a href="#kerucut" class="page-scroll"><img src="img/cone.svg" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <div class="container emp zone"><div class="kalkulator-balok">kb</div></div> -->
+    
+    
+    <!-- Detail Kubus -->
+    <div id="kubus" class="container emp zone">
+        <div class="flex">
+            <div class="package">
+                <div class="item">
+                        <div class="kalkulator-kubus">KUBUS</div>
+                        <form id="a">
+                            <p class="display-center">length:</p>
+                            <input style="display: block " class="kubus-input" type="number" name="rusuk" min="1">
+                            <button id="submit" class="calc" type="submit">Calc the Volume</button>
+                        </form>
+
+                        <div class="up">
+                                <a href="#html" class="page-scroll">
+                                    <img class="up-arrow" src="img/up-arrow.svg" alt="">
+                                    <p class="go-up">Go-Up</p>
+                                </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Detail Bola -->
+    <div id="bola" class="container emp zone">
+        <div class="flex">
+            <div class="item">
+                <div class="kalkulator-bola">BOLA</div>
+                <form>
+                    <p class="display-center">radius:</p>
+                    <input class="kubus-input" style="display:block;" type="number" min="1">
+                    <button class="calc"  type="submit" >Calc the Volume</button>
+                </form>
+
+                <div class="up">
+                        <a href="#html" class="page-scroll">
+                            <img class="up-arrow" src="img/up-arrow.svg" alt="">
+                            <p class="go-up">Go-Up</p>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Detail Prisma Segi Empat -->
+    <div id="prisma" class="container emp zone">
+        <div class="package">
+            <div class="thing">
+                <div class="header"><p>Pentagon Prism</p></div>
+
+                <div class="display-center">
+                <div class="income">
+                    <div class="dot">
+                    <div class="size">
+                        <p >Base-length</p>
+                        <input class="kubus-input" type="number" min="1">
+                    </div>
+                    </div>
+                    <div class="dot">
+                        <div class="size">
+                            <p >height:</p>
+                            <input class="kubus-input" type="number" min="1">
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="calc-pack">
+                    <button type="submit" class="calc">Calc the Volume</button>
+                </div>
+
+                <div class="up">
+                        <a href="#html" class="page-scroll">
+                            <img class="up-arrow" src="img/up-arrow.svg" alt="">
+                            <p class="go-up">Go-Up</p>
+                        </a>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+
+    <!-- Detail Limas Segi Empat -->
+    <div id="limas" class="container emp zone">
+        <div class="package">
+            <div class="thing">
+                <div class="header"><p>Pyramid</p></div>
+
+                <div class="display-center">
+                <div class="income">
+                    <div class="dot">
+                    <div class="size">
+                        <p >Base-lenght</p>
+                        <input class="kubus-input" type="number" min="1">
+                    </div>
+                    </div>
+                    <div class="dot">
+                        <div class="size">
+                            <p >height:</p>
+                            <input class="kubus-input" type="number" min="1">
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="calc-pack">
+                    <button type="submit" class="calc">Calc the Volume</button>
+                </div>
+
+                <div class="up">
+                        <a href="#html" class="page-scroll">
+                            <img class="up-arrow" src="img/up-arrow.svg" alt="">
+                            <p class="go-up">Go-Up</p>
+                        </a>
+                </div>
+            </div>    
+         </div>
+    </div>
+    
+
+    <!-- Detail Tabung -->
+    <div id="tabung" class="container emp zone">
+        <div class="package">
+            <div class="thing">
+                <div class="header"><p>TUBE</p></div>
+
+                <div class="display-center">
+                <div class="income">
+                    <div class="dot">
+                    <div class="size">
+                        <p >Base-radius:</p>
+                        <input class="kubus-input" type="number" min="1">
+                    </div>
+                    </div>
+                    <div class="dot">
+                        <div class="size">
+                            <p >height:</p>
+                            <input class="kubus-input" type="number" min="1">
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="calc-pack">
+                    <button type="submit" class="calc">Calc the Volume</button>
+                </div>
+
+                <div class="up">
+                        <a href="#html" class="page-scroll">
+                            <img class="up-arrow" src="img/up-arrow.svg" alt="">
+                            <p class="go-up">Go-Up</p>
+                        </a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+
+    <!-- Detail Kerucut -->
+    <div id="kerucut" class="container emp zone">
+            <div class="package">
+                    <div class="thing">
+                        <div class="header"><p>CONE</p></div>
+        
+                        <div class="display-center">
+                        <div class="income">
+                            <div class="dot">
+                            <div class="size">
+                                <p >Base-radius:</p>
+                                <input class="kubus-input" type="number" min="1">
+                            </div>
+                            </div>
+                            <div class="dot">
+                                <div class="size">
+                                    <p >height:</p>
+                                    <input class="kubus-input" type="number" min="1">
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+        
+                        <div class="calc-pack">
+                            <button type="submit" class="calc">Calc the Volume</button>
+                        </div>
+
+                        <div class="up">
+                                <a href="#html" class="page-scroll">
+                                    <img class="up-arrow" src="img/up-arrow.svg" alt="">
+                                    <p class="go-up">Go-Up</p>
+                                </a>
+                        </div>
+                    </div>
+                   
+                </div>
+    </div>
+
+    <footer class="zone blue">
+        <p>Made By: Fauzi Ardha.</p>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
